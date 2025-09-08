@@ -83,7 +83,7 @@
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                               &kp Y                 &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &lt 4 C_AC_FORWARD  &kp H                 &kp J  &kp K      &kp L    &kp SEMI
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp LG(LS(S))                      &lt 5 C_AC_BACK     &kp N                 &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &lt 4 BACKSPACE     &mt LEFT_SHIFT ENTER                             &lt 6 DELETE
+&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE       &mt LEFT_SHIFT ENTER                             &lt 6 DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -91,10 +91,10 @@
 
         Control {
             bindings = <
-&kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans     &trans     &trans     &trans     &trans     &trans      &trans   &trans                          &kp F12
+&kp LC(Q)         &kp LC(W)  &kp LC(E)    &kp LC(R)  &kp LC(T)                                 &kp LC(Y)      &kp LC(U)  &kp LC(I)   &kp LC(O)   &kp LC(P)
+&kp LC(A)         &kp LC(S)  &kp LC(D)    &kp LC(F)  &kp LC(G)  &trans      &trans             &kp LC(H)      &kp LC(J)  &kp LC(K)   &kp LC(L)   &kp SINGLE_QUOTE
+&kp LC(Z)         &kp LC(X)  &kp LC(C)    &kp LC(V)  &kp LC(B)  &trans      &trans             &kp LC(N)      &kp LC(M)  &kp LS(N8)  &kp LS(N9)  &kp SLASH
+&kp LEFT_BRACKET  &kp TAB    &kp LS(TAB)  &trans     &trans     &trans      &kp RIGHT_BRACKET  &kp BACKSLASH                                     &kp LS(SLASH)
             >;
         };
 
