@@ -98,7 +98,7 @@
             >;
         };
 
-        NUM {
+        SYMBOL {
             bindings = <
 &kp LG(ESCAPE)  &kp LS(N7)              &kp LS(N8)               &kp LS(N9)  &kp PLUS                            &mkp MB4   &mkp MB2        &mkp MB3        &kp F2           &kp MINUS
 &kp LCTRL       &kp LS(N4)              &kp LS(N5)               &kp LS(N6)  &kp LG(LS(S))  &trans      &trans   &mkp MB5   &mkp MB1        &kp UP_ARROW    &kp F4           &kp LS(MINUS)
@@ -107,12 +107,12 @@
             >;
         };
 
-        ARROW {
+        NUMBER {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &kp PAGE_UP                        &trans  &trans  &trans  &trans  &trans
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp PAGE_DOWN  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans         &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans                  &trans          &trans                   &trans         &trans      &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
