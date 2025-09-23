@@ -126,8 +126,8 @@
             bindings = <
 &kp LG(LEFT_ARROW)  &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT_ARROW))  &kp LG(RIGHT_ARROW)  &trans                      &mkp MB5  &mkp MB2  &mkp MB3                &kp LC(W)                &trans
 &trans              &kp LC(LS(TAB))         &kp LC(TAB)              &trans               &trans  &trans      &trans  &mkp MB4  &mkp MB1  &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT_ARROW))  &trans
-&trans              &trans                  &trans                   &trans               &trans  &trans      &trans  &trans    &trans    &kp LC(LS(TAB))         &kp LC(TAB)              &trans
-&trans              &trans                  &trans                   &trans               &trans  &trans      &trans  &trans                                                               &trans
+&kp LEFT_SHIFT      &kp LEFT_BRACKET        &kp RIGHT_BRACKET        &trans               &trans  &trans      &trans  &trans    &trans    &kp LC(LS(TAB))         &kp LC(TAB)              &trans
+&trans              &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS    &trans               &trans  &trans      &trans  &trans                                                               &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOL_UP>;
