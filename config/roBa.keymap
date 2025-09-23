@@ -124,13 +124,11 @@
 
         MOUSEAND {
             bindings = <
-&kp LG(LEFT_ARROW)  &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT_ARROW))  &kp LG(RIGHT_ARROW)  &trans                      &mkp MB5  &mkp MB2  &mkp MB3                &kp LC(W)                &trans
+&kp LG(LEFT_ARROW)  &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT_ARROW))  &kp LG(RIGHT_ARROW)  &trans                      &mkp MB5  &mkp MB2  &mo 5                   &kp LC(W)                &trans
 &trans              &kp LC(LS(TAB))         &kp LC(TAB)              &trans               &trans  &trans      &trans  &mkp MB4  &mkp MB1  &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT_ARROW))  &trans
 &kp LEFT_SHIFT      &kp LEFT_BRACKET        &kp RIGHT_BRACKET        &trans               &trans  &trans      &trans  &trans    &trans    &kp LC(LS(TAB))         &kp LC(TAB)              &trans
 &trans              &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS    &trans               &trans  &trans      &trans  &trans                                                               &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOL_UP>;
         };
 
         SCROLL {
@@ -151,6 +149,8 @@
 &kp F1  &kp F2   &kp F3   &kp F4   &trans  &trans      &bootloader  &trans        &trans        &trans        &bt BT_CLR_ALL  &bt BT_CLR
 &trans  &trans   &trans   &trans   &trans  &trans      &trans       &trans                                                    &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
     };
 };
