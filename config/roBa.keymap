@@ -85,13 +85,13 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                                               &kp Y                 &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &lt 4 C_AC_FORWARD  &kp H                 &kp J  &kp K      &kp L    &kp SEMI
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp LG(LS(S))                      &lt 5 C_AC_BACK     &kp N                 &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &lt 4 BACKSPACE     &mt LEFT_SHIFT ENTER                             &lt 6 DELETE
+&kp Q             &kp W         &kp E         &kp R                        &kp T                                                             &kp Y                 &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp C_AC_FORWARD  &kp H                 &kp J  &kp K      &kp L    &kp SEMI
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp LG(LS(S))                      &kp C_AC_BACK     &kp N                 &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &lt 4 BACKSPACE   &mt LEFT_SHIFT ENTER                             &lt 6 DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
         Control {
@@ -129,7 +129,7 @@
 &trans              &trans                  &trans                   &trans               &trans  &trans      &trans  &trans                                &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOL_UP>;
         };
 
         SCROLL {
@@ -140,7 +140,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         layer_6 {
