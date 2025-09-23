@@ -53,6 +53,11 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        WindowChange {
+            bindings = <&kp LA(TAB)>;
+            key-positions = <2 1>;
+        };
     };
 
     macros {
@@ -118,10 +123,10 @@
 
         MOUSEAND {
             bindings = <
-&kp LG(LEFT_ARROW)  &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT_ARROW))  &kp LG(RIGHT_ARROW)  &trans                      &trans  &mkp MB2  &mkp MB3  &trans  &trans
-&trans              &kp LC(LS(TAB))         &kp LC(TAB)              &trans               &trans  &trans      &trans  &trans  &mkp MB1  &trans    &trans  &trans
-&trans              &trans                  &trans                   &trans               &trans  &trans      &trans  &trans  &trans    &trans    &trans  &trans
-&trans              &trans                  &trans                   &trans               &trans  &trans      &trans  &trans                              &trans
+&kp LG(LEFT_ARROW)  &kp LA(LG(LEFT_ARROW))  &kp LA(LG(RIGHT_ARROW))  &kp LG(RIGHT_ARROW)  &trans                      &mkp MB5  &mkp MB2  &mkp MB3  &trans  &trans
+&trans              &kp LC(LS(TAB))         &kp LC(TAB)              &trans               &trans  &trans      &trans  &mkp MB4  &mkp MB1  &trans    &trans  &trans
+&trans              &trans                  &trans                   &trans               &trans  &trans      &trans  &trans    &trans    &trans    &trans  &trans
+&trans              &trans                  &trans                   &trans               &trans  &trans      &trans  &trans                                &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
