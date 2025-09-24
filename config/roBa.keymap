@@ -97,10 +97,10 @@
 
         Control {
             bindings = <
-&kp LC(Q)         &kp LC(W)  &kp LC(E)    &kp LC(R)  &kp LC(T)                                 &kp LC(Y)      &kp LC(U)  &kp LC(I)   &kp LC(O)   &kp LC(P)
-&kp LC(A)         &kp LC(S)  &kp LC(D)    &kp LC(F)  &kp LC(G)  &trans      &kp LESS_THAN      &kp LC(H)      &kp LC(J)  &kp LC(K)   &kp LC(L)   &kp SINGLE_QUOTE
-&kp LC(Z)         &kp LC(X)  &kp LC(C)    &kp LC(V)  &kp LC(B)  &trans      &kp GREATER_THAN   &kp LC(N)      &kp LC(M)  &kp LS(N8)  &kp LS(N9)  &kp SLASH
-&kp LEFT_BRACKET  &kp TAB    &kp LS(TAB)  &trans     &trans     &trans      &kp RIGHT_BRACKET  &kp BACKSLASH                                     &kp LS(SLASH)
+&kp LC(Q)             &kp LC(W)  &kp LC(E)    &kp LC(R)  &kp LC(T)                                 &kp LC(Y)      &kp LC(U)  &kp LC(I)   &kp LC(O)   &kp LC(P)
+&kp LC(A)             &kp LC(S)  &kp LC(D)    &kp LC(F)  &kp LC(G)  &trans      &kp LESS_THAN      &kp LC(H)      &kp LC(J)  &kp LC(K)   &kp LC(L)   &kp SINGLE_QUOTE
+&mt LEFT_SHIFT LC(Z)  &kp LC(X)  &kp LC(C)    &kp LC(V)  &kp LC(B)  &trans      &kp GREATER_THAN   &kp LC(N)      &kp LC(M)  &kp LS(N8)  &kp LS(N9)  &kp SLASH
+&kp LEFT_BRACKET      &kp TAB    &kp LS(TAB)  &trans     &trans     &trans      &kp RIGHT_BRACKET  &kp BACKSLASH                                     &kp LS(SLASH)
             >;
         };
 
