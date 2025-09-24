@@ -124,19 +124,19 @@
 
         MOUSEAND {
             bindings = <
-&kp LG(LEFT_ARROW)  &kp LA(LC(LEFT_ARROW))  &kp LA(LC(RIGHT_ARROW))  &kp LG(RIGHT_ARROW)  &trans                      &mkp MB5  &mkp MB2  &mo 5                   &kp LC(W)                &trans
-&trans              &kp LC(LS(TAB))         &kp LC(TAB)              &trans               &trans  &trans      &trans  &mkp MB4  &mkp MB1  &kp LA(LC(LEFT_ARROW))  &kp LA(LC(RIGHT_ARROW))  &trans
-&kp LEFT_SHIFT      &kp LEFT_BRACKET        &kp RIGHT_BRACKET        &trans               &trans  &trans      &trans  &trans    &trans    &kp LC(LS(TAB))         &kp LC(TAB)              &trans
-&trans              &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS    &trans               &trans  &trans      &trans  &trans                                                               &trans
+&trans  &trans  &trans  &trans  &trans                      &mkp MB5  &mkp MB2  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB4  &mkp MB1  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans    &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
         };
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&kp LC(W)       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LC(LS(TAB))         &kp LC(TAB)                                  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LA(LC(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans                &trans                 &kp LG(LEFT_ARROW)      &kp LG(RIGHT_ARROW)      &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans                &trans                 &trans                  &trans                   &trans      &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
