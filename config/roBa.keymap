@@ -106,10 +106,10 @@
 
         SYMBOL {
             bindings = <
-&kp ESCAPE        &kp LS(N7)              &kp LS(N8)               &kp LS(N9)  &kp PLUS                                           &mkp MB5   &mkp MB2        &mkp MB3        &kp F2           &kp MINUS
-&kp LCTRL         &kp LS(N4)              &kp LS(N5)               &kp LS(N6)  &kp LG(LS(S))  &trans      &kp LS(LC(UP_ARROW))    &mkp MB4   &mkp MB1        &kp UP_ARROW    &kp F4           &kp LS(INT_RO)
-&kp LEFT_SHIFT    &kp LS(N1)              &kp LS(N2)               &kp LS(N3)  &kp INT_YEN    &trans      &kp LS(LC(DOWN_ARROW))  &kp LC(W)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TILDE
-&kp LEFT_CONTROL  &kp LS(LC(LEFT_ARROW))  &kp LS(LC(RIGHT_ARROW))  &trans      &trans         &trans      &kp DEL                 &kp TAB                                                     &kp LEFT_SHIFT
+&kp ESCAPE        &kp LS(N7)              &kp LS(N8)               &kp LS(N9)  &kp PLUS                                                     &mkp MB5   &mkp MB2        &mkp MB3        &kp F2           &kp MINUS
+&kp LCTRL         &kp LS(N4)              &kp LS(N5)               &kp LS(N6)  &kp LG(LS(S))  &trans                &kp LS(LC(UP_ARROW))    &mkp MB4   &mkp MB1        &kp UP_ARROW    &kp F4           &kp LS(INT_RO)
+&kp LEFT_SHIFT    &kp LS(N1)              &kp LS(N2)               &kp LS(N3)  &kp INT_YEN    &kp LC(RS(PLUS))      &kp LS(LC(DOWN_ARROW))  &kp LC(W)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TILDE
+&kp LEFT_CONTROL  &kp LS(LC(LEFT_ARROW))  &kp LS(LC(RIGHT_ARROW))  &trans      &trans         &trans                &kp DEL                 &kp TAB                                                     &kp LEFT_SHIFT
             >;
         };
 
