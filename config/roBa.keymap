@@ -87,8 +87,8 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R             &kp T                                               &kp Y                 &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F             &kp G        &kp LS(LG(S))         &kp LC(W)        &kp H                 &kp J  &kp K      &kp L    &kp SEMI
-&kp Z             &kp X         &kp C         &kp V             &kp B        &kp SLASH             &kp LS(LC(M))    &kp N                 &kp M  &kp COMMA  &kp DOT  &lt 6 SLASH
+&kp A             &kp S         &kp D         &kp F             &kp G        &kp LS(LG(S))         &kp LC(W)        &kp H                 &kp J  &lt 5 K    &kp L    &kp SEMI
+&kp Z             &kp X         &kp C         &kp V             &kp B        &lt 5 SLASH           &kp LS(LC(M))    &kp N                 &kp M  &kp COMMA  &kp DOT  &lt 6 SLASH
 &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 LANGUAGE_2  &lt 2 SPACE  &lt 3 LANGUAGE_1      &lt 4 BACKSPACE  &mt LEFT_SHIFT ENTER                             &lt 6 DELETE
             >;
 
@@ -133,10 +133,10 @@
 
         SCROLL {
             bindings = <
-&kp LC(W)       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LC(LS(TAB))         &kp LC(TAB)                                  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LA(LC(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &kp LESS_THAN         &kp GREATER_THAN       &kp LG(LEFT_ARROW)      &kp LG(RIGHT_ARROW)      &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                &trans                 &trans                  &trans                   &trans      &trans  &trans                          &trans
+&kp LC(W)       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LC(LS(TAB))         &kp LC(TAB)                                  &trans  &mkp MB2  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LA(LC(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))  &trans      &trans  &trans  &trans    &trans  &trans  &trans
+&trans          &kp LESS_THAN         &kp GREATER_THAN       &kp LG(LEFT_ARROW)      &kp LG(RIGHT_ARROW)      &trans      &trans  &trans  &trans    &trans  &trans  &trans
+&trans          &trans                &trans                 &trans                  &trans                   &trans      &trans  &trans                            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
