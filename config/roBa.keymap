@@ -133,10 +133,10 @@
 
         SCROLL {
             bindings = <
-&kp LC(W)       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LC(LS(TAB))         &kp LC(TAB)                                  &mkp MB5  &mkp MB2  &trans  &kp LC(W)  &trans
-&kp LEFT_SHIFT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LA(LC(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))  &trans      &trans  &mkp MB4  &mkp MB2  &trans  &kp LC(W)  &trans
-&trans          &kp LESS_THAN         &kp GREATER_THAN       &kp LG(LEFT_ARROW)      &kp LG(RIGHT_ARROW)      &trans      &trans  &trans    &trans    &trans  &trans     &trans
-&trans          &trans                &trans                 &trans                  &trans                   &trans      &trans  &trans                                 &trans
+&kp LC(W)       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LC(LS(TAB))         &kp LC(TAB)                                  &mkp MB5  &mkp MB2  &trans  &kp LC(LA(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))
+&kp LEFT_SHIFT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LA(LC(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))  &trans      &trans  &mkp MB4  &mkp MB1  &trans  &kp LC(W)               &kp LC(W)
+&trans          &kp LESS_THAN         &kp GREATER_THAN       &kp LG(LEFT_ARROW)      &kp LG(RIGHT_ARROW)      &trans      &trans  &trans    &trans    &trans  &trans                  &trans
+&trans          &trans                &trans                 &trans                  &trans                   &trans      &trans  &trans                                              &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
