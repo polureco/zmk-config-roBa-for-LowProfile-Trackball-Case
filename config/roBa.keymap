@@ -88,7 +88,7 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R             &kp T                                               &kp Y                 &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F             &kp G        &kp LS(LG(S))         &kp LC(W)        &kp H                 &kp J  &lt 5 K    &kp L    &kp SEMI
-&kp Z             &kp X         &kp C         &kp V             &kp B        &mkp MB3              &kp LS(LC(M))    &kp N                 &kp M  &kp COMMA  &kp DOT  &lt 6 SLASH
+&kp Z             &kp X         &kp C         &kp V             &kp B        &trans                &kp LS(LC(M))    &kp N                 &kp M  &kp COMMA  &kp DOT  &lt 6 SLASH
 &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 LANGUAGE_2  &lt 2 SPACE  &lt 3 LANGUAGE_1      &lt 4 BACKSPACE  &mt LEFT_SHIFT ENTER                             &mt LEFT_SHIFT MINUS
             >;
 
