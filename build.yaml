@@ -18,11 +18,11 @@
 #
 ---
 include:
-  - board: seeeduino_xiao_ble
+  - board: board: xiao_ble
     shield: roBa_R
 
-  - board: seeeduino_xiao_ble
+  - board: board: xiao_ble
     shield: roBa_L
 
-  - board: seeeduino_xiao_ble
+  - board: board: xiao_ble
     shield: settings_reset
